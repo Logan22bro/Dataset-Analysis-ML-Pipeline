@@ -1,15 +1,32 @@
-# Hands-On 5 (HO5)
+# Dataset Analysis ML Pipeline
 
-Before beginning, make sure your environment is properly set up.
-This was documented in Hands-On 0: https://github.com/ucsc-cse-40/HO0
+A Python machine learning workflow for preprocessing tabular data, engineering features, training classification models, and evaluating predictive performance.
 
-In this assignment, you will be doing an end-to-end analysis on a unique dataset.
-You will start with an unprocessed dataset and do all the steps from previous assignments to clean, explore, visualize, and analyze your dataset.
+## Overview
+This project builds an end-to-end analysis pipeline on a structured dataset. The workflow includes cleaning raw data, transforming features into model-ready inputs, training multiple classifiers, and comparing their performance.
 
-## Submitting the Assignment
+## Features
+- Data cleaning and preprocessing
+- Feature extraction and transformation
+- Training classification models
+- Comparing model accuracy and performance
+- Reproducible notebook-based workflow
 
-Submit your code by running `python3 -m autograder.run.submit assignment.ipynb` from your local repository directory.
-This script will check for your cruzid, password, and assignment id in `config.json`
-and submit your work to a server controlled by the TAs where tests will be run, reporting the results back to you.
+## Files
+- `assignment.ipynb` – main notebook containing preprocessing, modeling, and evaluation
+- `requirements.txt` – project dependencies
+- `config.json` – configuration file used by the notebook
+- `data.txt` – dataset used for analysis
 
-Submit your written portion as a PDF on Canvas.
+## Tools Used
+- Python
+- pandas
+- NumPy
+- scikit-learn
+- Jupyter Notebook
+
+## Running the Project
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
