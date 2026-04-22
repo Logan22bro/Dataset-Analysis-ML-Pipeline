@@ -13,7 +13,7 @@ This project builds an end-to-end analysis pipeline on a structured dataset. The
 - Reproducible notebook-based workflow
 
 ## Files
-- `assignment.ipynb` – main notebook containing preprocessing, modeling, and evaluation
+- `ml_pipeline.py` – main project containing preprocessing, modeling, and evaluation
 - `requirements.txt` – project dependencies
 - `config.json` – configuration file used by the notebook
 - `data.txt` – dataset used for analysis
